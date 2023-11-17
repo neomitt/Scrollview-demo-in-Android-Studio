@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#160B29"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pica" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Елиза. Добрейший человек в истории, разговаривает на двух языках. Самый талантливый, умный и красивый человек в мире. Успешнейший k-pop айдол за всю историю k-pop индустри. Работала с такими модными брендами как: Dior, Versace, Louis Vuitton и многие другие. Также известная как основатель компании FankoPak. Имеет хобби в виде переосмысления всей политики мира. Её метафоры дано понять только высшим слоям общества. -Мы оба эукариоты @Лиза"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Вау!"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
